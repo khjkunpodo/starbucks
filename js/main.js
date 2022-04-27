@@ -32,7 +32,7 @@ window.addEventListener('scroll', _.throttle(function() {
     gspa.to(toTopEl, .2, {
       x: 0
     });
-  } else {
+  } else {git
     // 배지 보이기
     gsap.to(badgeEl, .6, {
       opacity: 1,
